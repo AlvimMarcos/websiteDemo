@@ -4,9 +4,11 @@
   "description": "Node Crash Course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node index",
+    "dev": "nodemon index"
+    
   },
-  "author": "Marcos Alvim",
+  "author": "Marcos_Alvim",
   "license": "ISC",
   "dependencies": {
     "uuid": "^8.3.0"
